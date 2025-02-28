@@ -1,33 +1,14 @@
-// I used ChatGPT to check all of my examples. I will write how far I got on my own and compate with ChatGPT. 
+// Exercise 2
 
-// function isAdult (21,) {
-//     if (21 > 18) {
-//         return Adult
-//     } else (18) {
-//         return Minor
-//     }
-// }
-// console.log(isAdult)
+function isAdult(age) {
+  if (age >= 18) {
+    return "Adult";
+  } else {
+    return "Minor";
+  }
+}
 
-
-// Chat GPT correct answer = 
-
-// function isAdult(age) {
-//     if (age > 18) {
-//         return "Adult";
-//     } else {
-//         return "Minor";
-//     }
-// }
-
-// // console.log(isAdult(21))
-
-
-
-
-
-
-
+// console.log(isAdult(30))
 
 /*
 Exercise 3: isCharAVowel()
@@ -42,13 +23,8 @@ Example: isCharAVowel('a') should return true.
 Complete the exercise in the space below:
 */
 
-function isCharAVowel("a") {
-
-}
-if (isCharAVowel = vowel)
-    return true
-else {
-    return false
+function isCharAVowel() {
+    
 }
 
-console.log('Exercise 3 Result:', isCharAVowel("a"));
+console.log("Exercise 3 Result:", isCharAVowel("a"));
